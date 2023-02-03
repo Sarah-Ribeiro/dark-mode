@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/* Button */
+
+button {
+    background-color: gray;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    font-size: 24px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: darkgray;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 30px;
+}
+
+/* Header */
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 24px;
+    color: darkgray;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 46px;
+    color: gray;
+    font-weight: 600;
+}
